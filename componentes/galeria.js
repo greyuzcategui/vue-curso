@@ -8,7 +8,7 @@ Vue.component('galeria',{
         <div class="row" > 
             <libros v-for="libro in arrayLibros" 
                     v-bind:title="libro.title" 
-                    v-bind:autor="libro.autor"
+                    v-bind:author="libro.author"
                     v-bind:price="libro.price"
                     v-bind:img="libro.img"
                     >
